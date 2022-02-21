@@ -4,3 +4,4 @@
 
 
 ### Here you can find all of my old and new JavaScript Projects!
+### Every Project has its own readme.md for more details!
