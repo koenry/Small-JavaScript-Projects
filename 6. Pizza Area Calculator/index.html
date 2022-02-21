@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <title>Pizza Area</title>
+    <script defer src="index.js"></script>
+    <script src="https://kit.fontawesome.com/03560d443a.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-success">
+      <a class="navbar-brand">Pizza Area Calculator <i class="fas fa-pizza-slice"></i> </a> 
+      </nav>
+      <br><br><br><br>
+      <form>
+        <div class='container-fluid text-center'>
+        <div class="form-group row">
+          <div class="form-group col-md-2 align-middle">
+            <input id="inputDiam" type="text" class="form-control"  placeholder="Pizza Diameter">
+            <br>
+            <button onclick='calculateArea(id)' id='1' type="button" class="btn btn-success">Calculate in cm</button>
+            <br> <br> 
+            <button onclick='calculateArea(id)' id='2'  type="button" class="btn btn-success">Calculate in ″</button>
+            <br> <br> <br>
+            <p id='result'>0</p>
+          </div>
+        </div>
+      </form> 
+  </body>
+</html>

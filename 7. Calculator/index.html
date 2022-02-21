@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='https://fonts.googleapis.com/css?family=Otomanopee One' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css'>
+    <link href='https://fonts.googleapis.com/css?family=Otomanopee One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Festive' rel='stylesheet'>
+    <link rel='stylesheet' href='style.css' />
+    <meta charset='UTF-8'>
+    <title>jsCalculator</title>
+    <script defer src='index.js'></script>
+  </head>
+<body>
+<main>
+  <h1>A Simple JavaScript Calculator</h1>
+  <div class="block">
+    <div class='box is-flex is-justify-content-left has-background-light'>
+      <br> <br>
+      <div id='ok'></div> 
+      <div id='ok2'></div>    
+      <div id='ok3'></div>
+      <br> <br> 
+    </div>
+  </div>
+  <div class='columns is-mobile is-centered'> 
+    <div class='column is-one-quarter'>
+      <button onclick='clearScreen()' class='button is-danger '>C</button>
+      <button onclick='equals()' class='button is-info'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; = &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</button>
+    </div>
+  </div>
+  <div class='columns is-mobile is-centered'> 
+    <div class='column is-one-quarter'>
+      <button onclick='btn7()' id='bt7' class='button is-primary' >7</button>
+      <button onclick='btn8()' id='bt8' class='button is-primary'>8</button>
+      <button onclick='btn9()' id='bt9' class='button is-primary'> 9</button>
+      <button onclick='multiply()' class='button is-warning is-rounded'>*</button>
+    </div>
+  </div>
+  <div class='columns is-mobile is-centered'> 
+    <div class='column is-one-quarter'>
+      <button onclick='btn4()' class='button is-primary' >4</button>
+      <button onclick='btn5()' class='button is-primary' >5</button>
+      <button onclick='btn6()' class='button is-primary'> 6</button>
+      <button onclick='add()' class='button is-warning is-rounded'>+</button> 
+    </div>
+  </div>
+  <div class='columns is-mobile is-centered'> 
+    <div class='column is-one-quarter'>
+      <button onclick='btn1()' id='bt1' class='bay button is-primary'>1</button>
+      <button onclick='btn2()' class='button is-primary'>2</button>
+      <button onclick='btn3()' class='button is-primary'> 3</button>
+      <button onclick='subtract()' class='button is-warning is-rounded'>-</button>
+            
+    </div>
+  </div>
+  <div class='columns is-mobile is-centered'> 
+    <div class='column is-one-quarter'>
+      <button onclick='btnRandom()' class='button is-info'> R </button>
+      <button onclick='btn0()' class='button is-primary'>0</button>
+      <button onclick='btnDot()' class='button is-primary'>&nbsp;.</button>
+      <button onclick='divide()' class='button is-warning is-rounded'> / </button>
+    </div>
+  </div>
+</main>       
+</body>
+</html>

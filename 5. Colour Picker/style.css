@@ -1,0 +1,24 @@
+h2 {
+    text-align: center;
+    font-family: 'Otomanopee One';
+    font-size: 22px;
+}
+button {
+    text-align: center;
+}
+.btn {
+    font-family: 'Otomanopee One';
+}
+.topnav {
+    overflow: hidden;
+  }
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 28px;
+    color: black;
+    font-family: 'Festive'; 
+}

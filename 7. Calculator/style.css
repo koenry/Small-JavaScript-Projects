@@ -1,0 +1,25 @@
+#ok3 {
+    font-size: 25px;
+}
+#ok2 {
+    font-size: 24px;
+}
+#ok {
+    font-size: 25px;
+}
+body {
+    background-color: gainsboro;
+}
+.screen {
+    background-color: gainsboro;
+}
+.box {
+    border-style: solid;
+    border-color: coral;
+}
+main {
+    min-height: 100vh;
+    
+    place-items: center;
+    font-family: 'Otomanopee One';
+}
