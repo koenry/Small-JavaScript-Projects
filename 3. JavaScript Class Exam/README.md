@@ -1,1 +1,1 @@
-###  JavaScript exam for www.CodeAcademy.lt course
+###   www.CodeAcademy.lt programming course JavaScript exam
